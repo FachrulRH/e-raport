@@ -9,4 +9,7 @@ class Nilai extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'grade'
+    ];
 }
